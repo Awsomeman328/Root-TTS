@@ -252,9 +252,14 @@ board_xml = [[
     </TableLayout>
     <TableLayout id="vagabondButtons" class="vagabondButtons" active="false">
         <Row preferredHeight="85">
-            <Cell id="VagaArbiter">
-                <Button class="vagabondButton" color="#dbdbdb" onClick="spawnVagabond(VagaArbiter)">
-                    <Image class="vagabondImage" image="vagabond-arbiter" preserveAspect="true"></Image>
+		<Cell id="VagaThief">
+                <Button class="vagabondButton" color="grey" onClick="spawnVagabond(VagaThief)">
+                    <Image class="vagabondImage" image="vagabond-thief" preserveAspect="true"></Image>
+                </Button>
+            </Cell>
+		<Cell id="VagaTinker">
+                <Button class="vagabondButton" color="#dbdbdb" onClick="spawnVagabond(VagaTinker)">
+                    <Image class="vagabondImage" image="vagabond-tinker" preserveAspect="true"></Image>
                 </Button>
             </Cell>
             <Cell id="VagaRanger">
@@ -262,26 +267,21 @@ board_xml = [[
                     <Image class="vagabondImage" image="vagabond-ranger" preserveAspect="true"></Image>
                 </Button>
             </Cell>
-            <Cell id="VagaScoundrel">
-                <Button class="vagabondButton" color="#dbdbdb" onClick="spawnVagabond(VagaScoundrel)">
-                    <Image class="vagabondImage" image="vagabond-scoundrel" preserveAspect="true"></Image>
+		<Cell id="VagaVagrant">
+                <Button class="vagabondButton" color="grey" onClick="spawnVagabond(VagaVagrant)">
+                    <Image class="vagabondImage" image="vagabond-vagrant" preserveAspect="true"></Image>
                 </Button>
             </Cell>
-            <Cell id="VagaThief">
-                <Button class="vagabondButton" color="grey" onClick="spawnVagabond(VagaThief)">
-                    <Image class="vagabondImage" image="vagabond-thief" preserveAspect="true"></Image>
-                </Button>
-            </Cell>
-            <Cell id="VagaTinker">
-                <Button class="vagabondButton" color="#dbdbdb" onClick="spawnVagabond(VagaTinker)">
-                    <Image class="vagabondImage" image="vagabond-tinker" preserveAspect="true"></Image>
+		<Cell id="VagaArbiter">
+                <Button class="vagabondButton" color="#dbdbdb" onClick="spawnVagabond(VagaArbiter)">
+                    <Image class="vagabondImage" image="vagabond-arbiter" preserveAspect="true"></Image>
                 </Button>
             </Cell>
         </Row>
         <Row preferredHeight="85">
-            <Cell id="VagaVagrant">
-                <Button class="vagabondButton" color="grey" onClick="spawnVagabond(VagaVagrant)">
-                    <Image class="vagabondImage" image="vagabond-vagrant" preserveAspect="true"></Image>
+            <Cell id="VagaScoundrel">
+                <Button class="vagabondButton" color="#dbdbdb" onClick="spawnVagabond(VagaScoundrel)">
+                    <Image class="vagabondImage" image="vagabond-scoundrel" preserveAspect="true"></Image>
                 </Button>
             </Cell>
             <Cell id="VagaAdventurer">
@@ -289,14 +289,14 @@ board_xml = [[
                     <Image class="vagabondImage" image="vagabond-adventurer" preserveAspect="true"></Image>
                 </Button>
             </Cell>
-            <Cell id="VagaHarrier">
-                <Button class="vagabondButton" color="grey" onClick="spawnVagabond(VagaHarrier)">
-                    <Image class="vagabondImage" image="vagabond-harrier" preserveAspect="true"></Image>
-                </Button>
-            </Cell>
             <Cell id="VagaRonin">
                 <Button class="vagabondButton" color="#dbdbdb" onClick="spawnVagabond(VagaRonin)">
                     <Image class="vagabondImage" image="vagabond-ronin" preserveAspect="true"></Image>
+                </Button>
+            </Cell>
+		<Cell id="VagaHarrier">
+                <Button class="vagabondButton" color="grey" onClick="spawnVagabond(VagaHarrier)">
+                    <Image class="vagabondImage" image="vagabond-harrier" preserveAspect="true"></Image>
                 </Button>
             </Cell>
             <Cell />
