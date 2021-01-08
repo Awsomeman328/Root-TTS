@@ -72,7 +72,7 @@ board_xml = [[
                     <Image class="mapImage" image="lizard-button"></Image>
                 </Button>
             </Cell>
-			<Cell id="Riverfolk1">
+		<Cell id="Riverfolk1">
                 <Button class="mapButton" onClick="spawnFunction(Riverfolk)" color="#47f8ff">
                     <Image class="mapImage" image="riverfolk-button"></Image>
                 </Button>
@@ -84,7 +84,7 @@ board_xml = [[
                     <Image class="mapImage" image="underground-button"></Image>
                 </Button>
             </Cell>
-			<Cell id="Corvid1">
+		<Cell id="Corvid1">
                 <Button class="mapButton" onClick="spawnFunction(Corvid)" color="purple">
                     <Image class="mapImage" image="corvid-button"></Image>
                 </Button>
